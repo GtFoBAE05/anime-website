@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className={styles.navbar}>
                 <div className={styles.container}>
                     <div className={styles.logo}>
-                        <h1>halo</h1>
+                        <h1>AAAnime</h1>
                     </div>
                     <div className={styles.navElements}>
                         <ul>
