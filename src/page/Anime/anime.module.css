@@ -1,0 +1,116 @@
+.headerImage {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.headerContent {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+    color: white;
+}
+
+.sectionBody {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.layout {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+
+
+}
+
+.grow1 {
+    flex-grow: 1;
+    width: 200px;
+
+}
+
+.grow3 {
+    flex-grow: 3;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.reactPlayerContainer {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.reactPlayer {
+    max-width: 100%;
+    height: auto;
+}
+
+.genresContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.genresBox {
+    background: #213944;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.moreDetailContainer {
+    width: 100%;
+}
+
+.moreDetailContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.label p {
+    margin: 0;
+    text-align: left;
+}
+
+.data p {
+    width: 500px;
+    margin: 0;
+    text-align: right;
+    min-width: 0;
+}
+
+
+
+hr.solid {
+    margin: 0em;
+    border-top: 3px solid #bbb;
+    border-bottom: none;
+}
+
+.recommendationsContainer h2 {
+    text-align: start;
+}
+
+.recommendationsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+}
+
